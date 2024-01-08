@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home</title>
+</head>
+
+<body onload="home()">
+    <section class="home">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <i class="fa-solid fa-suitcase-rolling"></i>
+                    <span>ROOM.ME</span>
+                </div>
+                <div class="logout">
+                    <button id="logout" onclick="userLogout()">Log Out</button>
+                </div>
+            </div>
+            <div class="home-title">
+                <h1 id="welcome-message" class="text-center">Hey, </h1>
+                <h1 class="text-center">Welcome to the Room.me!</h1>
+                <p class="text-center">Room.me is an innovative video conference product that revolutionizes virtual
+                    meetings</p>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/common.js"></script>
+</body>

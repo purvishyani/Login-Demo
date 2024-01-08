@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <section class="content-wrapper">
+        <section class="content-left">
+            <div class="container">
+                <div class="logo">
+                    <i class="fa-solid fa-suitcase-rolling"></i>
+                    <span>ROOM.ME</span>
+                </div>
+                <div class="title">
+                    <h1>Welcome back to Room.me!</h1>
+                    <p>Room.me is an innovative video conference product that revolutionizes virtual meetings</p>
+                </div>
+                <div class="login-detail">
+                    <label for="">Email Address</label>
+                    <input type="text" placeholder="Enter your email address" id="email">
+                </div>
+                
+                <div class="login-detail pwd">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter your password" id="toggle-password">
+                    <span class="eye"><i id="toggler"class="far fa-eye"></i></span>
+                    
+                </div>
+                <div class="buttons">
+                    <button class="sign-in" onclick="varifyAccount()">Sign In</button>
+                    <button class="sign-google"><img src="assets/img/google.png" alt=""> <span>Sign up with Google</span></button>
+                </div>
+                <div class="forgot">
+                    <div class="sign-up">
+                        <span>Doesn't have account? <a href="sign-up.html">Sign up</a></span>
+                    </div>
+                    
+                    <a href="forgot-pwd.html">Forgot passowrd</a>
+                </div>
+            </div>
+        </section>
+        <section class="content-right">
+            <div class="img-left">
+                <img src="assets/img/woman.jpg" alt="">
+            </div>
+        </section>
+    </section>
+  
+
+    <script src="assets/js/common.js"></script>
+</body>
+</html>
